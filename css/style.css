@@ -7,3 +7,9 @@
 p {
   color: yellow;
 }
+img {
+  border-radius: 100%; // full circular image
+}
+body {
+  background-color: black
+}
