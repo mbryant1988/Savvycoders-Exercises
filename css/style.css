@@ -21,3 +21,13 @@ div.relative {
 li {
   color: white;
 }
+
+a:link{
+  color:black;
+}
+a:hover{
+  color:yellow;
+}
+a:visited{
+  color:red;
+}
