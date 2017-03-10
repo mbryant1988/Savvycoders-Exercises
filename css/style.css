@@ -29,9 +29,26 @@ textarea{
 form {
   width: 500px;
 }
-input {
-  float: left;
-}
+
 .hidden{
   display:none;
+}
+::-webkit-input-placeholder {
+  color: blue;
+}
+::-moz-placeholder {
+  color: blue;
+}
+:-ms-input-placeholder {
+  color: blue;
+}
+:-moz-placeholder {
+  color: blue;
+}
+.round{
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
 }
