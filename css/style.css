@@ -4,7 +4,8 @@
 #p2 {
   color: blue;
 }
-p {
+p,
+label {
   color: yellow;
 }
 img {
@@ -20,4 +21,7 @@ div.relative {
 }
 li {
   color: white;
+}
+#commentarea{
+  background-color: blue
 }
