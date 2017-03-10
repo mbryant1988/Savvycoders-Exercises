@@ -22,6 +22,16 @@ div.relative {
 li {
   color: white;
 }
-#commentarea{
-  background-color: blue
+textarea{
+  height: 100px;
+  width: 300px;
+}
+form {
+  width: 500px;
+}
+input {
+  float: left;
+}
+.hidden{
+  display:none;
 }
