@@ -64,3 +64,29 @@ textarea{
 input, textarea{
   margin: 5px
 }
+ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    width: 100px;
+  }
+  li{
+    border: 1px solid black;
+  }
+  li:last-child {
+    border-bottom: none;
+}
+  li a{
+    display:block;
+    width: 60px;
+    text-align: center;
+    padding: 8px 16px;
+}
+li a:hover{
+  background-color: purple;
+  color: white;
+}
