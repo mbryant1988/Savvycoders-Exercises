@@ -64,25 +64,30 @@ ul {
   list-style-type: none;
     margin: 0;
     padding: 0;
-    border: 2px solid black;
-    height: 100%;
-    position: fixed;
+    width: 100%;
     overflow: auto;
-    width: 100px;
+    float: right;
   }
-  li{
+  .navbar li{
     border: 1px solid black;
+    display: inline;
+    float: right;
   }
-  li:last-child {
-    border-bottom: none;
+.navbar a{
+  display: block;
+  padding: 8px;
+  color: purple;
 }
-  li a{
+.navbar li a{
     display:block;
-    width: 60px;
     text-align: center;
-    padding: 8px 16px;
+    padding: 14px 16px;
 }
 li a:hover{
   background-color: purple;
-  color: white;
+  color: black;
+}
+ #active{
+  background-color: purple;
+  color:black;
 }
