@@ -1,10 +1,11 @@
-
+var wrongChoice ="Invalid Input";
 var userWins = "Winner Winner Chicken Dinner";
 var computerWins = "LUUUHZZER!";
 var roundCounter = 0;
 
 var gameRound = function(){
-    var userChoice = prompt("Choose Rock, Paper, or Scissors by typing 'R', 'P', or 'S'");
+    var userChoice = prompt("Choose Rock, Paper, or Scissors by typing 'R', 'P', or 'S'")
+
     var computerChoice = "R";
     var rng = Math.random();
 
@@ -14,6 +15,8 @@ var gameRound = function(){
         computerChoice = "S";
     }
 
+console.log(computerChoice)
+console.log(userChoice)
     if(computerChoice !== userChoice){
         if(computerChoice === "R"){
             if (userChoice === "S") {
@@ -25,7 +28,7 @@ var gameRound = function(){
             if( userChoice === "R") {
                 alert(computerWins);
             } else {
-                alert(userWins);
+                alert(userWins) ;
             }
         } else {
             if( userChoice === "P") {
@@ -38,6 +41,7 @@ var gameRound = function(){
         alert('Tie!');
     }
 };
+
 
 while (roundCounter < 5) {
     gameRound();
